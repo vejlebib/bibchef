@@ -1,0 +1,22 @@
+uuid: 3d5a695a-c03a-4093-a3ad-a413c488458a
+langcode: da
+status: true
+dependencies:
+  module:
+    - crop
+name: article_list_image
+label: 'Article list image'
+effects:
+  5df17084-812a-4201-9a46-eb995c3d1794:
+    uuid: 5df17084-812a-4201-9a46-eb995c3d1794
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: article_list_image
+  87e536e8-9a24-4838-beee-1273f90bffe5:
+    uuid: 87e536e8-9a24-4838-beee-1273f90bffe5
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 480
+      height: 270

@@ -7,3 +7,4 @@ access_check: false
 route_normalizer_enabled: true
 _core:
   default_config_hash: sy2s6cD5e-MOs_pCF0bLhRG9-YLooOXHSWn-00asCCc
+langcode: da

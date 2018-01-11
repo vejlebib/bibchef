@@ -1,0 +1,19 @@
+uuid: 61bfa930-d507-4fba-95ac-e44e85289348
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_lead
+    - node.type.article
+id: node.article.field_article_lead
+field_name: field_article_lead
+entity_type: node
+bundle: article
+label: Lead
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

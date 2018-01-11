@@ -1,5 +1,5 @@
 uuid: ff8690db-6fa2-43b5-bc04-76f64e7f0d58
-langcode: en
+langcode: da
 status: true
 dependencies:
   config:

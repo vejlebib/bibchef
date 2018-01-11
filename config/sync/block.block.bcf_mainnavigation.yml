@@ -12,7 +12,7 @@ dependencies:
 id: bcf_mainnavigation
 theme: bcf
 region: sidebar_first
-weight: 0
+weight: -10
 provider: null
 plugin: 'system_menu_block:main'
 settings:

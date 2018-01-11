@@ -5,10 +5,10 @@ slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /article-front
 admin_compact_mode: false
 weight_select_max: 100
-langcode: en
+langcode: da
 default_langcode: da
 _core:
   default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

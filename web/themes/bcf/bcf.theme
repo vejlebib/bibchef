@@ -24,3 +24,7 @@ function bcf_preprocess_field__node__field_tags(&$variables) {
   $variables['attributes']['class'][] = 'field-tags';
   $variables['attributes']['class'][] = 'clearfix';
 }
+
+function bcf_preprocess_field__node__field_article_lead(&$variables) {
+  $variables['attributes']['class'][] = 'field-article-lead';
+}

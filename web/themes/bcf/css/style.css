@@ -44,6 +44,22 @@ a:hover {
   text-decoration: none;
 }
 
+/* Form controls */
+input[type="submit"] {
+  background-color: #db742c;
+  color: #f1f2f2;
+}
+
+input[type="submit"]:hover {
+  background-color: #a55821;
+  color: #f1f2f2;
+}
+
+/* Status messages */
+.messages.messages--status {
+  margin-bottom: 20px;
+}
+
 /* Header background */
 .main-header {
   background: url(../images/Bibliotekschefforeningen_2000x800px3.png);
@@ -143,6 +159,11 @@ main {
   margin-right: 10px;
 }
 
+/* Target tags on article pages */
+.page-node-type-article .field-tags {
+  margin: 20px 0;
+}
+
 /* Target links like "add new comment" on article pages */
 .page-node-type-article ul.links.inline {
   clear: left;
@@ -203,4 +224,21 @@ footer h2 {
   float: right;
   max-width: 60%;
   margin-top: 100px;
+}
+
+
+/* Webform on article */
+.page-node-type-article .webform-submission-form {
+  margin: 40px 20px;
+}
+
+
+/* Views grid */
+div.views-col {
+  padding: 0 10px;
+}
+
+/* Front page article view. (sticky) */
+.view-article-front img {
+  width: 100%;
 }

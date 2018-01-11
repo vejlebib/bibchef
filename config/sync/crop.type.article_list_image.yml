@@ -1,0 +1,12 @@
+uuid: 7c54539f-c1f0-43fd-94ee-66bf2bc92461
+langcode: da
+status: true
+dependencies: {  }
+label: 'Article list image'
+id: article_list_image
+description: ''
+aspect_ratio: '16:9'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

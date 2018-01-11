@@ -9,7 +9,7 @@ _core:
 id: bcf_local_tasks
 theme: bcf
 region: auto_hidden_block
-weight: 0
+weight: -7
 provider: null
 plugin: local_tasks_block
 settings:

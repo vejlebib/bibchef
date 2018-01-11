@@ -1,0 +1,30 @@
+uuid: 44e33f8e-d1a8-40dd-9aa4-f46d35830f74
+langcode: da
+status: true
+dependencies:
+  config:
+    - views.view.article_list
+  module:
+    - system
+    - views
+  theme:
+    - bcf
+id: views_block__article_list_block_1
+theme: bcf
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:article_list-block_1'
+settings:
+  id: 'views_block:article_list-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

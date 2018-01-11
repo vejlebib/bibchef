@@ -9,7 +9,7 @@ _core:
 id: bcf_local_actions
 theme: bcf
 region: auto_hidden_block
-weight: -8
+weight: -9
 provider: null
 plugin: local_actions_block
 settings:

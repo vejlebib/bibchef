@@ -1,12 +1,14 @@
 uuid: 029dff1e-a4d4-4fc9-9ede-36832ee6bf84
-langcode: en
+langcode: da
 status: true
 dependencies:
   config:
     - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_article_lead
     - field.field.node.article.field_image
+    - field.field.node.article.field_list_image
     - field.field.node.article.field_tags
     - field.field.node.article.webform
     - node.type.article
@@ -24,35 +26,42 @@ mode: default
 content:
   body:
     type: text_default
-    weight: 0
+    weight: 1
     region: content
     settings: {  }
     third_party_settings: {  }
     label: hidden
   comment:
     type: comment_default
-    weight: 4
+    weight: 5
     region: content
     label: above
     settings:
       view_mode: default
       pager_id: 0
     third_party_settings: {  }
+  field_article_lead:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
   field_tags:
     type: entity_reference_label
-    weight: 2
+    weight: 3
     region: content
     label: above
     settings:
       link: true
     third_party_settings: {  }
   links:
-    weight: 3
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
   webform:
-    weight: 1
+    weight: 2
     label: hidden
     settings:
       source_entity: true
@@ -61,4 +70,5 @@ content:
     region: content
 hidden:
   field_image: true
+  field_list_image: true
   langcode: true

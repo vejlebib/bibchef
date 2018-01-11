@@ -1,0 +1,25 @@
+uuid: e78e86be-cc5c-46dc-a2b8-c8d6f0fef8e9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bf6e16ee-2210-4e32-b7cc-9d92d855992d'
+  module:
+    - block_content
+  theme:
+    - drupal8_zymphonies_theme
+id: welcomebanner
+theme: drupal8_zymphonies_theme
+region: welcome_banner_text
+weight: 0
+provider: null
+plugin: 'block_content:bf6e16ee-2210-4e32-b7cc-9d92d855992d'
+settings:
+  id: 'block_content:bf6e16ee-2210-4e32-b7cc-9d92d855992d'
+  label: 'Welcome banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

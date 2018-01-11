@@ -1,0 +1,22 @@
+uuid: 91a84f05-081b-4e06-8dcb-0fb814a254c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bcf
+_core:
+  default_config_hash: GpUaz7FJXEtQb8SHa8h5OzSPj6RcNds8tOnO1-itpfQ
+id: bcf_powered
+theme: bcf
+region: auto_hidden_block
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

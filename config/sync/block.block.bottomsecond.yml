@@ -1,0 +1,25 @@
+uuid: fe3bbf6b-5169-4773-b65e-895306fc8319
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c1edd018-4a86-46c8-b50f-1bd24bc9bb39'
+  module:
+    - block_content
+  theme:
+    - drupal8_zymphonies_theme
+id: bottomsecond
+theme: drupal8_zymphonies_theme
+region: bottom_second
+weight: 0
+provider: null
+plugin: 'block_content:c1edd018-4a86-46c8-b50f-1bd24bc9bb39'
+settings:
+  id: 'block_content:c1edd018-4a86-46c8-b50f-1bd24bc9bb39'
+  label: 'Bottom second'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

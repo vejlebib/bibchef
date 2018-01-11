@@ -1,0 +1,22 @@
+uuid: 901672ce-688f-45b4-a5a5-875330ebe3a0
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - bcf
+_core:
+  default_config_hash: Un8sX1XhL9SINI_rE_YXDFHzdCDZr54OQHROhScyZXo
+id: bcf_help
+theme: bcf
+region: highlighted
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

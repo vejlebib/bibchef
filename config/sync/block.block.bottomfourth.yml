@@ -1,0 +1,25 @@
+uuid: 3a6509f5-86f3-433a-b4d2-a7c9e993e1f0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8f531292-5e17-4061-99af-e99260ce65c7'
+  module:
+    - block_content
+  theme:
+    - drupal8_zymphonies_theme
+id: bottomfourth
+theme: drupal8_zymphonies_theme
+region: bottom_forth
+weight: 0
+provider: null
+plugin: 'block_content:8f531292-5e17-4061-99af-e99260ce65c7'
+settings:
+  id: 'block_content:8f531292-5e17-4061-99af-e99260ce65c7'
+  label: 'Bottom fourth'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

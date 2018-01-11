@@ -1,0 +1,33 @@
+uuid: a9e51e5b-afa6-4116-b1c3-693b95ff31f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.article_title_image
+  module:
+    - ctools
+    - views
+  theme:
+    - bcf
+id: views_block__article_title_image_block_1
+theme: bcf
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:article_title_image-block_1'
+settings:
+  id: 'views_block:article_title_image-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

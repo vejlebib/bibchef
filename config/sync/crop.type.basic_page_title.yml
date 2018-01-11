@@ -1,0 +1,12 @@
+uuid: 58efaa6a-9bfe-479e-b92f-58cc6628aed1
+langcode: en
+status: true
+dependencies: {  }
+label: 'Basic page title'
+id: basic_page_title
+description: 'Title image for basic page.'
+aspect_ratio: '4:1'
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

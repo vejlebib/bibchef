@@ -1,0 +1,25 @@
+uuid: e5f1de6d-f338-45b9-add9-26ed98454711
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4145a97e-17b2-4953-a5f0-56331f26f425'
+  module:
+    - block_content
+  theme:
+    - drupal8_zymphonies_theme
+id: bottomthird
+theme: drupal8_zymphonies_theme
+region: bottom_third
+weight: 0
+provider: null
+plugin: 'block_content:4145a97e-17b2-4953-a5f0-56331f26f425'
+settings:
+  id: 'block_content:4145a97e-17b2-4953-a5f0-56331f26f425'
+  label: 'Bottom third'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

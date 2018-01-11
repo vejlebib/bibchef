@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+fonts:
+  css:
+    theme:
+      '//fonts.googleapis.com/css?family=Raleway|Roboto:300': { type: external, minified: true }

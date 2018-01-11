@@ -1,0 +1,23 @@
+uuid: a72260a5-2597-4dd8-9a79-e9216e4a1dc2
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+name: article_title_image
+label: 'Article title image'
+effects:
+  6f7d0a11-8bfd-4518-8c18-11676d03fe1c:
+    uuid: 6f7d0a11-8bfd-4518-8c18-11676d03fe1c
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: article_title_image
+  d5cbcbe6-3bf5-4f0b-9e75-31048723f63e:
+    uuid: d5cbcbe6-3bf5-4f0b-9e75-31048723f63e
+    id: image_scale
+    weight: 2
+    data:
+      width: 360
+      height: null
+      upscale: true

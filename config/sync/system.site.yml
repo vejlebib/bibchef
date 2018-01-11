@@ -1,0 +1,15 @@
+uuid: 9afbbaf7-c06f-4126-af40-be53caa452f3
+name: BCF
+mail: admin@bcf.dk
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: da
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
+mail_notification: ''

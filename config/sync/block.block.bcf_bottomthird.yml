@@ -1,0 +1,25 @@
+uuid: 9d852f0e-a367-4834-bb76-77ca86a615a1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4145a97e-17b2-4953-a5f0-56331f26f425'
+  module:
+    - block_content
+  theme:
+    - bcf
+id: bcf_bottomthird
+theme: bcf
+region: bottom_third
+weight: 0
+provider: null
+plugin: 'block_content:4145a97e-17b2-4953-a5f0-56331f26f425'
+settings:
+  id: 'block_content:4145a97e-17b2-4953-a5f0-56331f26f425'
+  label: 'Bottom third'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

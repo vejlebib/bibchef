@@ -1,0 +1,25 @@
+uuid: 8cc7199a-a6f2-4d15-ad29-ed73f4e33faf
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ee16821d-1676-4f07-93da-530b79d209dc'
+  module:
+    - block_content
+  theme:
+    - drupal8_zymphonies_theme
+id: bottomfirst
+theme: drupal8_zymphonies_theme
+region: bottom_first
+weight: 0
+provider: null
+plugin: 'block_content:ee16821d-1676-4f07-93da-530b79d209dc'
+settings:
+  id: 'block_content:ee16821d-1676-4f07-93da-530b79d209dc'
+  label: 'Bottom first'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

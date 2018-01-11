@@ -1,0 +1,25 @@
+uuid: cc134c6d-a5b1-48b1-b13b-d3d4a6f1d17d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8f531292-5e17-4061-99af-e99260ce65c7'
+  module:
+    - block_content
+  theme:
+    - bcf
+id: bcf_bottomfourth
+theme: bcf
+region: bottom_forth
+weight: 0
+provider: null
+plugin: 'block_content:8f531292-5e17-4061-99af-e99260ce65c7'
+settings:
+  id: 'block_content:8f531292-5e17-4061-99af-e99260ce65c7'
+  label: 'Bottom fourth'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

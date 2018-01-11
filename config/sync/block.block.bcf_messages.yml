@@ -1,0 +1,22 @@
+uuid: 0003d108-61ef-4451-9ae0-eb5f896b268a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bcf
+_core:
+  default_config_hash: pL9lPtMNe-Ln-z_ZLAV8YmjeAHjv4u3NEGOxCMC7Eis
+id: bcf_messages
+theme: bcf
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

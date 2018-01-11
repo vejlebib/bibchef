@@ -1,0 +1,22 @@
+uuid: 0792bef2-8807-4356-bc01-7815cb45cfd1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: news
+label: News
+type: 'canonical_entities:node'
+pattern: 'nyhed/[node:title]'
+selection_criteria:
+  455b5771-dbff-45d1-9867-96e1b874670e:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 455b5771-dbff-45d1-9867-96e1b874670e
+selection_logic: and
+weight: -5
+relationships: {  }

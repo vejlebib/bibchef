@@ -1,0 +1,20 @@
+uuid: 547b5439-51ae-4b60-b33d-a4a97b7892db
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bcf
+_core:
+  default_config_hash: zi8BYNgxjz5ew8ihNDfnBFXLJ5jCW-UNbCQ3mLUM_kE
+id: bcf_page_title
+theme: bcf
+region: page_title
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

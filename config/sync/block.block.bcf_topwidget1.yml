@@ -1,0 +1,25 @@
+uuid: c668192f-bbfe-4ce6-8603-8c59ab83602a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:52143295-5b35-4ee2-9b62-ed4bf839d552'
+  module:
+    - block_content
+  theme:
+    - bcf
+id: bcf_topwidget1
+theme: bcf
+region: topwidget_first
+weight: 0
+provider: null
+plugin: 'block_content:52143295-5b35-4ee2-9b62-ed4bf839d552'
+settings:
+  id: 'block_content:52143295-5b35-4ee2-9b62-ed4bf839d552'
+  label: 'Top widget 1'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

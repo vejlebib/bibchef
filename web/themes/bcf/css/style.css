@@ -1,0 +1,206 @@
+/* CSS overrides for BCF theme */
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #474747;
+  background-color: #171a21;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+h1, .h1 {
+  font-size: 45px;
+}
+
+h2, .h2 {
+  font-size: 40px;
+}
+
+h3, .h3 {
+  font-size: 30px;
+}
+
+h4, .h4 {
+  font-size: 20px;
+}
+
+/* Link color overrides */
+a {
+  color: #db742c;
+}
+
+a:hover {
+  color: #a55821;
+  text-decoration: none;
+}
+
+/* Header background */
+.main-header {
+  background: url(../images/Bibliotekschefforeningen_2000x800px3.png);
+}
+
+/* Change alpha on header background overlay */
+.main-header:after {
+  background: rgba(21, 22, 26, 0.8);
+}
+
+#main-menu li.active {
+  font-weight: bold;
+}
+
+.region-sidebar-first #main-menu a {
+  color: #078D92;
+  padding: 0 0 13px 0;
+}
+
+.region-sidebar-first #main-menu li {
+  float: none;
+}
+
+.welcome-banner-text {
+  max-width: 700px;
+}
+
+.region-bottom-first,
+.region-bottom-second,
+.region-bottom-third,
+.region-bottom-forth {
+  height: 380px;
+}
+
+.logo img {
+  max-width: 180px;
+}
+
+/* Remove margin from main-header to cover body background-color */
+.main-header {
+  margin-bottom: 0;
+}
+
+/* Vertical rhythm on paragraphs */
+p {
+  margin: 15px 0;
+}
+
+/* Responsive images */
+img {
+  height: auto;
+}
+
+/* Page title */
+#page-title h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* Main menu in header */
+div.region-primary-menu {
+  margin-top: 10px;
+}
+
+
+/* Main content */
+main {
+  background-color: #f1f2f2;
+  padding: 20px 0;
+}
+
+
+/* Top widget with font-awesome icons on frontpage */
+.path-frontpage .topwidget .fa {
+  background: #db742c;
+  color: #f1f2f2;
+  width: 125px;
+  height: 125px;
+}
+
+
+/* Article/Page */
+.comment-submitted {
+  color: #474747;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+}
+
+.comment-submitted a {
+  color: #db742c;
+}
+
+/* Target tag links on article pages */
+.page-node-type-article .field-tags a {
+  float: left;
+  margin-right: 10px;
+}
+
+/* Target links like "add new comment" on article pages */
+.page-node-type-article ul.links.inline {
+  clear: left;
+  margin-top: 20px;
+}
+
+/* Bottom widgets */
+.bottom-widgets {
+  background-color: #f1f2f2;
+}
+
+
+/* Comments */
+.comments {
+  border-top: 1px solid #ccc;
+}
+
+.comments h3 {
+  margin-top: 30px;
+}
+
+footer.comment-wrap {
+  border-bottom: 1px solid #ccc;
+}
+
+
+/* Footer */
+footer {
+  padding: 50px 0;
+  color: #fff;
+}
+
+footer a {
+  color: #fff; /* Override */
+}
+
+footer a:hover {
+  color: #888;
+}
+
+.footer-menu {
+  background: none;
+}
+
+.footer-menu nav li {
+  display: block;
+}
+
+nav h2 {
+  display: block;
+}
+
+footer h2 {
+  color: #db742c;
+}
+
+.footer-logo {
+  float: right;
+  max-width: 60%;
+  margin-top: 100px;
+}

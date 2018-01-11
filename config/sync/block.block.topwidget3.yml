@@ -1,0 +1,25 @@
+uuid: 055fdb8d-2ce7-4d85-8dd7-96dc34084441
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c614ac22-10cb-4073-8cbb-f5dba19c4e44'
+  module:
+    - block_content
+  theme:
+    - drupal8_zymphonies_theme
+id: topwidget3
+theme: drupal8_zymphonies_theme
+region: topwidget_third
+weight: 0
+provider: null
+plugin: 'block_content:c614ac22-10cb-4073-8cbb-f5dba19c4e44'
+settings:
+  id: 'block_content:c614ac22-10cb-4073-8cbb-f5dba19c4e44'
+  label: 'Top widget 3'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

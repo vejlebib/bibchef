@@ -1,0 +1,12 @@
+uuid: 7244bb43-915d-4603-83d0-7c7c24c038ca
+langcode: en
+status: true
+dependencies: {  }
+label: 'Article title image'
+id: article_title_image
+description: 'Title image for Article'
+aspect_ratio: ''
+soft_limit_width: null
+soft_limit_height: null
+hard_limit_width: null
+hard_limit_height: null

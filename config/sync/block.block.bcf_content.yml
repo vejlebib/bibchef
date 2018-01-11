@@ -1,0 +1,22 @@
+uuid: 0a78151b-11ad-4688-aa8c-7b0d092bc39e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bcf
+_core:
+  default_config_hash: jSZmBCcqYQr4kmUhNkVI9zUV2XDiMifu16gBSehH8jg
+id: bcf_content
+theme: bcf
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

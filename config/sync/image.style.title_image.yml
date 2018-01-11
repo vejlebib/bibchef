@@ -1,0 +1,22 @@
+uuid: c5bbba95-8909-4709-be5e-c2aa85adfdf9
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+name: title_image
+label: 'Title image'
+effects:
+  f1c51f33-6ae5-4b12-9fe1-dd5a891684cf:
+    uuid: f1c51f33-6ae5-4b12-9fe1-dd5a891684cf
+    id: crop_crop
+    weight: -10
+    data:
+      crop_type: basic_page_title
+  510d1c84-a96f-4808-aed9-88f782de0ff6:
+    uuid: 510d1c84-a96f-4808-aed9-88f782de0ff6
+    id: image_scale_and_crop
+    weight: 3
+    data:
+      width: 800
+      height: 200

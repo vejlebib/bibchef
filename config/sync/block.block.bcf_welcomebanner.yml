@@ -1,0 +1,25 @@
+uuid: c1030f7d-5f85-422c-9aa1-e44ae5370025
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:bf6e16ee-2210-4e32-b7cc-9d92d855992d'
+  module:
+    - block_content
+  theme:
+    - bcf
+id: bcf_welcomebanner
+theme: bcf
+region: welcome_banner_text
+weight: 0
+provider: null
+plugin: 'block_content:bf6e16ee-2210-4e32-b7cc-9d92d855992d'
+settings:
+  id: 'block_content:bf6e16ee-2210-4e32-b7cc-9d92d855992d'
+  label: 'Welcome banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

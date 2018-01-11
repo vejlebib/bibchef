@@ -1,0 +1,20 @@
+uuid: 42e4eeef-91d6-4d76-97d6-bfccc7ebbf09
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bcf
+_core:
+  default_config_hash: XCWqSeTOh5bXVI1Ed_mwnOXna4OL408bB_FTwxqPEp8
+id: bcf_local_actions
+theme: bcf
+region: auto_hidden_block
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

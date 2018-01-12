@@ -16,6 +16,7 @@ h3, .h3,
 h4, .h4 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  color: #474747;
 }
 
 h1, .h1 {
@@ -75,12 +76,20 @@ input[type="submit"]:hover {
 }
 
 .region-sidebar-first #main-menu a {
-  color: #078D92;
+  color: #db742c;
   padding: 0 0 13px 0;
 }
 
 .region-sidebar-first #main-menu li {
   float: none;
+}
+
+/*  Sub-menu block for main-menu in left sidebar */
+#block-bcf-mainnavigation h3 {
+  margin: 0 0 20px 0;
+}
+#block-bcf-mainnavigation h3 a {
+  color: #474747;
 }
 
 .welcome-banner-text {

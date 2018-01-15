@@ -55,6 +55,13 @@ a:hover {
   text-decoration: none;
 }
 
+a,
+a:hover
+a.active,
+a:active {
+  outline: none !important;
+}
+
 /* Form controls */
 input[type="submit"] {
   background-color: #db742c;

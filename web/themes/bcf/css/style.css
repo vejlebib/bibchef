@@ -94,7 +94,8 @@ label {
 
 /* Header background */
 .main-header {
-  background: url(../images/Bibliotekschefforeningen_2000x800px3.png);
+  background: url(../images/Bibliotekschefforeningen_2000x800px3.png) top left/cover no-repeat;;
+
 }
 
 /* Change alpha on header background overlay */

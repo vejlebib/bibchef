@@ -83,6 +83,10 @@ input[type="submit"]:hover {
   color: #f1f2f2;
 }
 
+label {
+  display: block; /* Override inline labels from bootstrap */
+}
+
 /* Status messages */
 .messages.messages--status {
   margin-bottom: 20px;

@@ -63,6 +63,16 @@ a:active {
 }
 
 /* Form controls */
+input, textarea {
+  width: 80%;
+}
+
+input[type="checkbox"],
+input[type="radio"],
+input[type="submit"] {
+  width: auto; /* Override the width on other input elements */
+}
+
 input[type="submit"] {
   background-color: #db742c;
   color: #f1f2f2;

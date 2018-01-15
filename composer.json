@@ -31,6 +31,7 @@
         "drupal/pathauto": "^1.0",
         "drupal/quick_node_clone": "^1.5",
         "drupal/redirect": "^1.0",
+        "drupal/registration_role": "^1.0@beta",
         "drupal/token": "^1.0",
         "drupal/webform": "^5.0@RC",
         "oomphinc/composer-installers-extender": "^1.1",

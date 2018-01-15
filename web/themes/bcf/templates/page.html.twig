@@ -189,13 +189,13 @@
 
     <div class="row layout">
       <!--- Start Left SideBar -->
-      {% if page.sidebar_first %}
         <div class="sidebar" >
           <div class = {{sidebarfirst}} >
-            {{ page.sidebar_first }}
+            {% if page.sidebar_first %}
+              {{ page.sidebar_first }}
+            {% endif %}
           </div>
         </div>
-      {% endif %}
       <!---End Right SideBar -->
 
       <!--- Start content -->

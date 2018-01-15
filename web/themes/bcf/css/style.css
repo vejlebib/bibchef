@@ -283,3 +283,8 @@ div.views-col {
 .view-article-front img {
   width: 100%;
 }
+
+/* Hide register menu-link for logged-in users. Uses class defined by menu_link_attribute module. */
+.user-logged-in li .user-register-menu-link {
+  display: none;
+}

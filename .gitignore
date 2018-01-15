@@ -32,6 +32,7 @@
 /web/.gitattributes
 /web/.ht.router.php
 /web/.htaccess
+/web/autoload.php
 /web/index.php
 /web/robots.txt
 /web/sites/default/default.settings.php

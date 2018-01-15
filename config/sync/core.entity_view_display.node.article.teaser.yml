@@ -52,7 +52,9 @@ content:
     region: content
 hidden:
   comment: true
+  field_article_lead: true
   field_image: true
+  field_list_image: true
   field_tags: true
   langcode: true
   webform: true

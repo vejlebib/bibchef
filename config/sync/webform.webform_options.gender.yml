@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: c5x62CEac0adja_twp51SAMoQxSMhUqub19onhvmuHM
 id: gender
-label: Gender
+label: Køn
 category: Demographic
 likert: false
 options: "Male: Male\nFemale: Female\nTransgender: Transgender\n"

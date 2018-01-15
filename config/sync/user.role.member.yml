@@ -1,0 +1,11 @@
+uuid: 02db9409-b5cc-44c6-baa3-79b81b619f25
+langcode: da
+status: true
+dependencies: {  }
+id: member
+label: Member
+weight: 3
+is_admin: null
+permissions:
+  - 'cancel account'
+  - 'select account cancellation method'

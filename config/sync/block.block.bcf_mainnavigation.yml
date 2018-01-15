@@ -6,9 +6,13 @@ dependencies:
     - system.menu.main
   module:
     - ctools
+    - menu_block_title
     - system
   theme:
     - bcf
+third_party_settings:
+  menu_block_title:
+    modify_title: true
 id: bcf_mainnavigation
 theme: bcf
 region: sidebar_first
@@ -19,7 +23,7 @@ settings:
   id: 'system_menu_block:main'
   label: 'Main navigation'
   provider: system
-  label_display: '0'
+  label_display: visible
   level: 2
   depth: 2
 visibility:

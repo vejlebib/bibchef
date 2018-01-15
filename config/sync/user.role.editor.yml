@@ -1,0 +1,30 @@
+uuid: 9124dab8-8067-43a3-ad3b-76d61cc6d3e0
+langcode: da
+status: true
+dependencies: {  }
+id: editor
+label: Editor
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access in-place editing'
+  - 'access toolbar'
+  - 'create article content'
+  - 'create page content'
+  - 'create url aliases'
+  - 'delete own article content'
+  - 'delete own page content'
+  - 'delete terms in tags'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit own article content'
+  - 'edit own page content'
+  - 'edit terms in tags'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'view article revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view webform submissions any node'
+  - 'view webform submissions own node'

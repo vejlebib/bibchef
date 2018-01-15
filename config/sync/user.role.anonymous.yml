@@ -5,12 +5,15 @@ dependencies: {  }
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
 id: anonymous
-label: 'Anonymous user'
+label: 'Anonym bruger'
 weight: 0
 is_admin: false
 permissions:
   - 'access comments'
   - 'access content'
+  - 'access mailchimp signup pages'
   - 'access site-wide contact form'
+  - 'edit own comments'
+  - 'post comments'
   - 'search content'
   - 'use text format restricted_html'

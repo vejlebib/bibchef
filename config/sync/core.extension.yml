@@ -33,6 +33,8 @@ module:
   mailchimp: 0
   mailchimp_lists: 0
   mailchimp_signup: 0
+  menu_block_title: 0
+  menu_link_attributes: 0
   menu_ui: 0
   node: 0
   options: 0
@@ -42,6 +44,7 @@ module:
   quickedit: 0
   rdf: 0
   redirect: 0
+  registration_role: 0
   search: 0
   shortcut: 0
   system: 0

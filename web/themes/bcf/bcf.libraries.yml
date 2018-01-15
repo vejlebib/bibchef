@@ -6,4 +6,5 @@ global-styling:
 fonts:
   css:
     theme:
-      '//fonts.googleapis.com/css?family=Raleway|Roboto:300': { type: external, minified: true }
+      '//fonts.googleapis.com/css?family=Roboto:300': { type: external, minified: true }
+      '//brick.a.ssl.fastly.net/Raleway:400': { type: external, minified: true }

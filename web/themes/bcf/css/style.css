@@ -1,13 +1,20 @@
 /* CSS overrides for BCF theme */
 
+html {
+  /* Ensure the background-color is flooded */
+  /* See: https://css-tricks.com/html-vs-body-in-css/ */
+  /* See: https://css-tricks.com/just-one-of-those-weird-things-about-css-background-on-body/ */
+  background-color: #171a21;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 150%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #474747;
   background-color: #171a21;
+  color: #474747;
 
   /* Set lining figures for Raleway font to avoid "Numbers out of line"  */
   /* See: https://www.codesmite.com/article/fixing-raleway-and-similar-fonts-numerals */

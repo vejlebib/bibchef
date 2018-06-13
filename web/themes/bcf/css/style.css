@@ -295,3 +295,8 @@ div.views-col {
 .user-logged-in li .user-register-menu-link {
   display: none;
 }
+
+/* User register form */
+#user-register-form {
+  margin: 0 auto;
+}

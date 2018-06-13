@@ -1,0 +1,20 @@
+uuid: 6937cacd-f5ac-4c6d-a51f-53142ebd0bad
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_ean
+  module:
+    - user
+id: user.user.field_ean
+field_name: field_ean
+entity_type: user
+bundle: user
+label: EAN
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

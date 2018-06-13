@@ -1,15 +1,16 @@
-langcode: en
+uuid: 95223a13-2abd-4295-b718-df2f2ab43a0d
+langcode: da
 status: open
 dependencies: {  }
 open: null
 close: null
-uid: 1
+uid: 2
 template: false
-id: digital_strategi_afstemning
-title: 'Digital strategi afstemning'
+id: send_dit_tip_til_ledelsesarbejde
+title: 'Send dit tip til ledelsesarbejdet'
 description: ''
 category: ''
-elements: "radio:\n  '#type': radios\n  '#title': 'Har dit bibliotek en digital strategi?'\n  '#title_display': before\n  '#options': yes_no\ndigital_strategi_hvis_nej:\n  '#type': radios\n  '#title': 'Hvis nej: Hvorfor ikke?'\n  '#options':\n    - 'Jeg synes ikke vi har kompetencerne til at udarbejde en strategi'\n    - 'Jeg synes ikke det er vigtigt for vores arbejde'\n    - 'Vi skal have en, men har ikke prioriteret det endnu'\n    - 'Vi arbejder på en…'\n  '#states':\n    visible:\n      ':input[name=\"radio\"]':\n        value: 'No'\ndigital_strategi_hvis_andet:\n  '#type': textarea\n  '#title': 'Hvis andet - hvad?'\n  '#states':\n    visible:\n      ':input[name=\"digital_strategi_hvis_nej\"]':\n        value: '3'\n"
+elements: "navn:\n  '#type': textfield\n  '#title': Navn\n  '#required': true\ne_mail:\n  '#type': email\n  '#title': E-mail\n  '#required': true\ndit_forslag:\n  '#type': textarea\n  '#title': 'Dit forslag'\n  '#required': true\n"
 css: ''
 javascript: ''
 settings:
@@ -128,4 +129,3 @@ access:
     users: {  }
     permissions: {  }
 handlers: {  }
-uuid: 2b58814d-9f66-4dc9-99df-9adbdd6af112

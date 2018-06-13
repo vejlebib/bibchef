@@ -1,0 +1,9 @@
+uuid: 641f1426-3069-4d8e-b14f-20c8cd610c0e
+langcode: da
+status: true
+dependencies: {  }
+name: Biblioteker
+vid: biblioteker
+description: ''
+hierarchy: 0
+weight: 0

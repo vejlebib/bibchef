@@ -1,0 +1,20 @@
+uuid: d3e2689f-aef5-44eb-8ab8-578cb1b886a3
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_bibliotek
+  module:
+    - user
+id: user.user.field_bibliotek
+field_name: field_bibliotek
+entity_type: user
+bundle: user
+label: Bibliotek
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

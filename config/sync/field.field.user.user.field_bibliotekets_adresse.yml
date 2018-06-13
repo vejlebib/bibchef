@@ -1,0 +1,20 @@
+uuid: 1a9bd1c2-82c3-42d7-805e-98fba433cec1
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_bibliotekets_adresse
+  module:
+    - user
+id: user.user.field_bibliotekets_adresse
+field_name: field_bibliotekets_adresse
+entity_type: user
+bundle: user
+label: 'Bibliotekets adresse'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

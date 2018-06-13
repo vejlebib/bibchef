@@ -1,0 +1,11 @@
+uuid: ae645148-733a-45d8-8aaa-8777dce02506
+langcode: da
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.biblioteker
+id: taxonomy_term.biblioteker
+target_entity_type_id: taxonomy_term
+target_bundle: biblioteker
+default_langcode: site_default
+language_alterable: false

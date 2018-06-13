@@ -3,10 +3,13 @@ langcode: da
 status: true
 dependencies:
   config:
-    - field.field.user.user.user_picture
-    - image.style.thumbnail
+    - field.field.user.user.field_bibliotek
+    - field.field.user.user.field_bibliotekets_adresse
+    - field.field.user.user.field_ean
+    - field.field.user.user.field_telefon
+    - field.field.user.user.field_titel
+    - field.field.user.user.field_user_full_name
   module:
-    - image
     - path
     - user
 _core:
@@ -17,30 +20,76 @@ bundle: user
 mode: default
 content:
   account:
-    weight: -10
+    weight: 2
     region: content
+    settings: {  }
+    third_party_settings: {  }
   contact:
-    weight: 5
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_bibliotek:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_bibliotekets_adresse:
+    weight: 8
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ean:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_telefon:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_titel:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_user_full_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   language:
-    weight: 0
+    weight: 3
     region: content
+    settings: {  }
+    third_party_settings: {  }
   path:
     type: path
-    weight: 30
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
   timezone:
     weight: 6
-    region: content
-  user_picture:
-    type: image_image
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    weight: -1
     region: content
 hidden:
   langcode: true

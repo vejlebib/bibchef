@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.page.field_page_files
     - field.field.node.page.field_page_image
     - field.field.node.page.field_page_links
+    - field.field.node.page.webform
     - image.style.thumbnail
     - node.type.page
   module:
@@ -15,6 +16,7 @@ dependencies:
     - link
     - path
     - text
+    - webform
 _core:
   default_config_hash: sWCotip3wyA0CvZUxyo-StTDU8TyTAhx5fcfOiHS6s4
 id: node.page.default
@@ -122,4 +124,11 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  webform:
+    weight: 122
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
 hidden: {  }

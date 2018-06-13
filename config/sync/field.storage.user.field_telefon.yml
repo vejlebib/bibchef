@@ -1,0 +1,21 @@
+uuid: 6e86d4db-880d-464a-9c91-df7829157224
+langcode: da
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_telefon
+field_name: field_telefon
+entity_type: user
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

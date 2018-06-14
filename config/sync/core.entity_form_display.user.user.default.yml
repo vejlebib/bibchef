@@ -24,28 +24,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  contact:
-    weight: 4
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_bibliotek:
-    weight: 7
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_bibliotekets_adresse:
-    weight: 8
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_ean:
     weight: 6
     settings:
       size: 60
@@ -53,8 +32,24 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
+  field_bibliotekets_adresse:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ean:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_telefon:
-    weight: 10
+    weight: 8
     settings:
       size: 60
       placeholder: ''
@@ -84,7 +79,7 @@ content:
     third_party_settings: {  }
   path:
     type: path
-    weight: 5
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -92,4 +87,5 @@ content:
     weight: 6
     region: content
 hidden:
+  contact: true
   langcode: true

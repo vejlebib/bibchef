@@ -97,6 +97,7 @@
   {% if display_submitted %}
     <footer class="comment-submitted">
       <div{{ author_attributes.addClass('node__submitted') }}>
+        {% set date = node.getCreatedTime|format_date('bcf_standard') %}
         {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
         {{ metadata }}
       </div>

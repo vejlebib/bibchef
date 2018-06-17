@@ -1,0 +1,8 @@
+uuid: 240cb8b7-6385-47a4-944c-1aba38b6481c
+langcode: da
+status: true
+dependencies: {  }
+id: bcf_standard
+label: 'BCF Standard'
+locked: false
+pattern: 'j. F Y - H:s'

@@ -23,6 +23,7 @@ permissions:
   - 'edit terms in tags'
   - 'revert article revisions'
   - 'revert page revisions'
+  - 'use text format restricted_html'
   - 'view article revisions'
   - 'view own unpublished content'
   - 'view page revisions'

@@ -35,7 +35,7 @@ content:
     type: comment_default
     weight: 5
     region: content
-    label: above
+    label: inline
     settings:
       view_mode: default
       pager_id: 0

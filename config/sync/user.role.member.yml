@@ -9,4 +9,3 @@ is_admin: null
 permissions:
   - 'cancel account'
   - 'select account cancellation method'
-  - 'use text format restricted_html'

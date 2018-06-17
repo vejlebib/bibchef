@@ -19,6 +19,12 @@ function bcf_preprocess_page(&$variables) {
   if ($node instanceof \Drupal\node\NodeInterface) {
     $variables['is_node'] = TRUE;
   }
+
+  // Use 3-by-3 layout on tablets also.
+  if (!empty($variables['page']['topwidget_first']) && !empty($variables['page']['topwidget_second']) && !empty($variables['page']['topwidget_third'])) {
+    $variables['topwidget_class'] = 'col-md-4 col-sm-4';
+    $variables['topwidget_third_class'] = 'col-md-4 col-sm-4';
+  }
 }
 
 function bcf_preprocess_field__node__field_tags(&$variables) {

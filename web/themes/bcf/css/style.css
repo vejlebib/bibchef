@@ -5,6 +5,8 @@ html {
   /* See: https://css-tricks.com/html-vs-body-in-css/ */
   /* See: https://css-tricks.com/just-one-of-those-weird-things-about-css-background-on-body/ */
   background-color: #171a21;
+
+  /* #91B7B8 */
 }
 
 body {
@@ -299,4 +301,24 @@ div.views-col {
 /* User register form */
 #user-register-form {
   margin: 0 auto;
+}
+
+/**
+ * Responsive styling.
+ */
+
+@media (max-width: 767px) {
+  .views-col {
+    /* Make views grid columns full width on small screens. */
+    width: 100%;
+
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Fix narrow width on bootstrap container on small screens. */
+  main > div > .container {
+    width: 95%;
+  }
 }

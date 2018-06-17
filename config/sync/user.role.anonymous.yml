@@ -16,3 +16,4 @@ permissions:
   - 'edit own comments'
   - 'post comments'
   - 'search content'
+  - 'view media'

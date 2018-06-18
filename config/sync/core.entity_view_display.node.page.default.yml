@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.page.body
+    - field.field.node.page.field_front_teaser
     - field.field.node.page.field_page_files
     - field.field.node.page.field_page_image
     - field.field.node.page.field_page_links
@@ -34,7 +35,8 @@ content:
   field_page_files:
     weight: 2
     label: hidden
-    settings: {  }
+    settings:
+      use_description_as_link_text: true
     third_party_settings: {  }
     type: file_default
     region: content
@@ -73,4 +75,5 @@ content:
     type: webform_entity_reference_entity_view
     region: content
 hidden:
+  field_front_teaser: true
   langcode: true

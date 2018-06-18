@@ -337,3 +337,33 @@ div.views-col {
     width: 95%;
   }
 }
+
+/**
+ * Simple page front-page cadrs.
+ */
+div.simple-page-card {
+  background-color: #ffffff;
+  padding: 5px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  min-height: 380px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+div.simple-page-card .views-field-title,
+div.simple-page-card .views-field-field-front-teaser {
+  padding: 8px;
+}
+
+div.simple-page-list-grid-col-wrapper.col-md-3,
+div.simple-page-list-grid-col-wrapper.col-sm-6 {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.simple-page-list-view {
+  border-top: 1px solid #a4a4a4;
+  padding-top: 20px;
+}

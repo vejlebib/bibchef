@@ -1,0 +1,30 @@
+uuid: a8fb4704-94b7-4604-8d48-6db84a89807e
+langcode: da
+status: true
+dependencies:
+  config:
+    - views.view.simple_page_list
+  module:
+    - system
+    - views
+  theme:
+    - bcf
+id: views_block__simple_page_list_block_1
+theme: bcf
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:simple_page_list-block_1'
+settings:
+  id: 'views_block:simple_page_list-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

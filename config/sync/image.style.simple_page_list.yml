@@ -1,0 +1,22 @@
+uuid: 18adc890-3750-423c-92b1-bce8e940ec6b
+langcode: da
+status: true
+dependencies: {  }
+name: simple_page_list
+label: 'Simple page list'
+effects:
+  fef10b6d-04ed-4847-83d9-fe463fa62c50:
+    uuid: fef10b6d-04ed-4847-83d9-fe463fa62c50
+    id: image_scale_and_crop
+    weight: -10
+    data:
+      width: 480
+      height: 360
+  9e8420fb-bbfc-4682-ae7a-234c416368f7:
+    uuid: 9e8420fb-bbfc-4682-ae7a-234c416368f7
+    id: image_crop
+    weight: -9
+    data:
+      width: 480
+      height: 360
+      anchor: center-center

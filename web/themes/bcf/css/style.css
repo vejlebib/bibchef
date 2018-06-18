@@ -103,8 +103,7 @@ label {
 
 /* Header background */
 .main-header {
-  background: url(../images/Bibliotekschefforeningen_2000x800px3.png) top left/cover no-repeat;;
-
+  background: url(../images/Bibliotekschefforeningen_2000x800px3.png) top left/cover no-repeat;
 }
 
 /* Change alpha on header background overlay */
@@ -177,10 +176,26 @@ div.region-primary-menu {
 
 /* Main content */
 main {
-  background-color: #f1f2f2;
-  padding: 20px 0;
+  background: url(../images/BCF_ikon_Grey.png) repeat;
+  /* Teal based. */
+  background-image: linear-gradient(to bottom, rgba(103,130,133,0.6) 0%,rgba(103,130,133,0.6) 100%), url(../images/BCF_ikon_Grey.png);
+  /* Grey based. */
+  background-image: linear-gradient(to bottom, rgba(241,242,242,0.9) 0%,rgba(241,242,242,0.9) 100%), url(../images/BCF_ikon_Grey.png);
+  background-color: #e5eff5;
+  padding: 0;
 }
 
+.bcf-main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-color: #f1f2f2;
+}
+
+.bcf-main-container > #wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
 
 /* Top widget with font-awesome icons on frontpage */
 .path-frontpage .topwidget .fa {

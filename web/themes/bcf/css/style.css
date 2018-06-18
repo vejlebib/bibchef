@@ -197,6 +197,10 @@ main {
   padding-left: 0;
 }
 
+.bcf-main-container .sidebar > .col-md-4 {
+  padding-left: 35px;
+}
+
 /* Top widget with font-awesome icons on frontpage */
 .path-frontpage .topwidget .fa {
   background: #db742c;

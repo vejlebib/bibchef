@@ -7,7 +7,9 @@ logo:
   use_default: 0
   path: themes/bcf/logo.png
 favicon:
-  use_default: 1
+  use_default: 0
+  path: themes/bcf/images/favicons/favicon.ico
+  mimetype: image/vnd.microsoft.icon
 show_social_icon: 0
 facebook_url: ''
 google_plus_url: ''

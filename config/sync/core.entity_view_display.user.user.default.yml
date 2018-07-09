@@ -6,6 +6,8 @@ dependencies:
     - field.field.user.user.field_bibliotek
     - field.field.user.user.field_bibliotekets_adresse
     - field.field.user.user.field_ean
+    - field.field.user.user.field_previous_librarychief
+    - field.field.user.user.field_previous_membership
     - field.field.user.user.field_telefon
     - field.field.user.user.field_titel
     - field.field.user.user.field_user_full_name
@@ -41,6 +43,24 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
+  field_previous_librarychief:
+    weight: 9
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_previous_membership:
+    weight: 8
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
     region: content
   field_telefon:
     weight: 7

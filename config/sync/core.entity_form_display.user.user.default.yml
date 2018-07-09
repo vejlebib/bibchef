@@ -6,6 +6,8 @@ dependencies:
     - field.field.user.user.field_bibliotek
     - field.field.user.user.field_bibliotekets_adresse
     - field.field.user.user.field_ean
+    - field.field.user.user.field_previous_librarychief
+    - field.field.user.user.field_previous_membership
     - field.field.user.user.field_telefon
     - field.field.user.user.field_titel
     - field.field.user.user.field_user_full_name
@@ -20,7 +22,7 @@ bundle: user
 mode: default
 content:
   account:
-    weight: 2
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -48,6 +50,20 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
+  field_previous_librarychief:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_previous_membership:
+    weight: 9
+    settings: {  }
+    third_party_settings: {  }
+    type: options_buttons
+    region: content
   field_telefon:
     weight: 8
     settings:
@@ -57,7 +73,7 @@ content:
     type: string_textfield
     region: content
   field_titel:
-    weight: 1
+    weight: 2
     settings:
       size: 60
       placeholder: ''
@@ -65,7 +81,7 @@ content:
     type: string_textfield
     region: content
   field_user_full_name:
-    weight: 0
+    weight: 1
     settings:
       size: 60
       placeholder: ''

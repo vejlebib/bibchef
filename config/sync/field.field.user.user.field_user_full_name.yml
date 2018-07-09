@@ -11,7 +11,7 @@ field_name: field_user_full_name
 entity_type: user
 bundle: user
 label: Navn
-description: ''
+description: 'Indtast dit fulde navn som bliver vist, når du kommenterer på indhold.'
 required: true
 translatable: false
 default_value: {  }

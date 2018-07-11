@@ -192,15 +192,6 @@ main {
   background-color: #f1f2f2;
 }
 
-.bcf-main-container > #wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-
-.bcf-main-container .sidebar > .col-md-4 {
-  padding-left: 35px;
-}
-
 /* Top widget with font-awesome icons on frontpage */
 .path-frontpage .topwidget .fa {
   background: #db742c;
@@ -354,6 +345,19 @@ div.views-col {
   /* Fix narrow width on bootstrap container on small screens. */
   main > div > .container {
     width: 95%;
+  }
+}
+
+@media (min-width: 768px) {
+  .bcf-main-container > #wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .bcf-main-container .sidebar > .col-md-4 {
+    padding-left: 35px;
   }
 }
 

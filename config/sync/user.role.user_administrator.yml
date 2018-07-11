@@ -1,0 +1,15 @@
+uuid: 642b9780-1f85-463c-ab8b-75db405e565b
+langcode: da
+status: true
+dependencies: {  }
+id: user_administrator
+label: 'Bruger administrator'
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access site in maintenance mode'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer users'
+  - 'view the administration theme'

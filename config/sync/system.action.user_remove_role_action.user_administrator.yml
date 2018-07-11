@@ -1,0 +1,14 @@
+uuid: 08e99c8f-c3a7-4ec6-8eda-9c1839718a56
+langcode: da
+status: true
+dependencies:
+  config:
+    - user.role.user_administrator
+  module:
+    - user
+id: user_remove_role_action.user_administrator
+label: 'Remove the Bruger administrator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: user_administrator

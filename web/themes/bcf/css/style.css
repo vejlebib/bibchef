@@ -371,6 +371,18 @@ div.simple-page-card {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
 
+/**
+ * IE 11/10/9/8 fix: the max-width property does not work like in other browsers
+ * on images. For example in this case it would take the percentage of images
+ * original width and not the container. Since we don't need the max-width
+ * functionality anyway in this case, the easiest fix is just to use 100% normal
+ * width. Other places it doesn't seem to be a problem (which is really weird),
+ * so for now we will only try to fix images on the simple page cards.
+ */
+div.simple-page-card img {
+  width: 100%;
+}
+
 div.simple-page-card .views-field-title,
 div.simple-page-card .views-field-field-front-teaser {
   padding: 8px;

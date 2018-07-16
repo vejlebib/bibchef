@@ -122,9 +122,6 @@
         "patches":  {
             "drupal/quick_node_clone": {
                 "2969141: Fatal error on admin/content in PHP 5.6": "https://www.drupal.org/files/issues/2018-05-10/quick_node_clone-clone_permission_parameter-2969141-2_0.patch"
-            },
-            "drupal/core": {
-            	"Fix core PHPUNIT test errors": "https://www.drupal.org/files/issues/2936704-29.patch"
             }
         }
     },

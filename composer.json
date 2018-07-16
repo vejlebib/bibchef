@@ -24,7 +24,7 @@
         "drupal/antibot": "^1.2",
         "drupal/config_update": "^1.5",
         "drupal/console": "~1.0",
-        "drupal/core": "~8.0",
+        "drupal/core": "~8.5.0",
         "drupal/drupal8_zymphonies_theme": "^1.0",
         "drupal/features": "^3.5",
         "drupal/file_browser": "^1.1",
@@ -57,14 +57,8 @@
         "webmozart/path-util": "^2.3"
     },
     "require-dev": {
-        "behat/mink": "~1.7",
-        "behat/mink-goutte-driver": "~1.2",
         "drupal/devel": "^1.2",
-        "jcalderonzumba/gastonjs": "~1.0.2",
-        "jcalderonzumba/mink-phantomjs-driver": "~0.3.1",
-        "mikey179/vfsstream": "~1.2",
-        "phpunit/phpunit": ">=4.8.28 <5",
-        "symfony/css-selector": "~2.8"
+        "webflo/drupal-core-require-dev": "~8.5.0"
     },
     "conflict": {
         "drupal/drupal": "*"

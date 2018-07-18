@@ -12,7 +12,6 @@ env:
     - SIMPLETEST_BASE_URL="http://127.0.0.1:8080"
   matrix:
     - RELEASE=stable COMPOSER_CHANNEL=stable
-    - RELEASE=dev COMPOSER_CHANNEL=stable
     - RELEASE=stable COMPOSER_CHANNEL=snapshot
 
 matrix:
@@ -37,9 +36,6 @@ install:
   - cgr drush/drush:8.1.15
 
 script:
-  - if [[ $RELEASE = dev ]]; then composer --verbose remove --no-update drupal/console; fi;
-  - if [[ $RELEASE = dev ]]; then composer --verbose require --no-update drupal/core:8.6.x-dev webflo/drupal-core-require-dev:8.6.x-dev; fi;
-  - if [[ $RELEASE = dev ]]; then composer --verbose update; fi;
   - cd $TRAVIS_BUILD_DIR/web
   - drush site-install --verbose --yes --db-url=sqlite://tmp/site.sqlite
   - drush runserver $SIMPLETEST_BASE_URL &

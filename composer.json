@@ -22,6 +22,7 @@
         "desandro/masonry": "master",
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/antibot": "^1.2",
+        "drupal/config_installer": "^1.8",
         "drupal/config_update": "^1.5",
         "drupal/console": "~1.0",
         "drupal/core": "~8.0",

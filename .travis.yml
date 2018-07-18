@@ -34,7 +34,7 @@ install:
   - composer --verbose install
   - composer global require consolidation/cgr
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
-  - cgr drush/drush
+  - cgr drush/drush:8.1.15
 
 script:
   - if [[ $RELEASE = dev ]]; then composer --verbose remove --no-update drupal/console; fi;

@@ -47,6 +47,7 @@ script:
   # Skip core/tests/Drupal/Tests/ComposerIntegrationTest.php because web/ has no composer.json
   # Ignore PageCache group temporarily, @see https://www.drupal.org/node/2770673
   # Ignore Setup group temporarily, @see https://www.drupal.org/node/2962157
+  # Ignore webform tests temporarily. TODO: try to newer version of webform and remove again
   - ./../vendor/bin/phpunit -c core --testsuite unit --exclude-group Composer,DependencyInjection,PageCache,Setup,webform
   - drush
   - if [[ $RELEASE = stable ]]; then ./../vendor/bin/drupal; fi;

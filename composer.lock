@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc2361e60c555f76da56704c7420e6da",
+    "content-hash": "b636ccdba38e488f6e1d6790f9bfc79b",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1305,6 +1305,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "2961886: Unit test for Config Differ is failing": "https://www.drupal.org/files/issues/2018-04-17/2961886.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

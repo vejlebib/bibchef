@@ -117,6 +117,9 @@
         "patches":  {
             "drupal/quick_node_clone": {
                 "2969141: Fatal error on admin/content in PHP 5.6": "https://www.drupal.org/files/issues/2018-05-10/quick_node_clone-clone_permission_parameter-2969141-2_0.patch"
+            },
+            "drupal/config_update": {
+              "2961886: Unit test for Config Differ is failing": "https://www.drupal.org/files/issues/2018-04-17/2961886.patch"
             }
         }
     },

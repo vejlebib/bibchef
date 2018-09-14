@@ -30,7 +30,7 @@
         "drupal/features": "^3.5",
         "drupal/file_browser": "^1.1",
         "drupal/image_widget_crop": "^2.1",
-        "drupal/mailchimp": "^1.5",
+        "drupal/mailchimp": "^1.7",
         "drupal/menu_block_title": "^1.1",
         "drupal/menu_link_attributes": "^1.0",
         "drupal/metatag": "^1.2",

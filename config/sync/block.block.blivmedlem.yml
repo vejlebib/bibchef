@@ -1,0 +1,31 @@
+uuid: 4f12e373-3911-479f-aeb9-44165b9740e7
+langcode: da
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:901bf07d-80eb-47dc-83e2-14252902ca67'
+  module:
+    - block_content
+    - system
+  theme:
+    - bcf
+id: blivmedlem
+theme: bcf
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:901bf07d-80eb-47dc-83e2-14252902ca67'
+settings:
+  id: 'block_content:901bf07d-80eb-47dc-83e2-14252902ca67'
+  label: 'Bliv medlem'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /user/register
+    negate: false
+    context_mapping: {  }

@@ -2,6 +2,8 @@ uuid: 3d5a695a-c03a-4093-a3ad-a413c488458a
 langcode: da
 status: true
 dependencies:
+  config:
+    - crop.type.article_list_image
   module:
     - crop
 name: article_list_image
@@ -20,3 +22,4 @@ effects:
     data:
       width: 480
       height: 270
+      anchor: center-center

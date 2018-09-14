@@ -12,6 +12,7 @@ effects:
     data:
       width: 480
       height: 360
+      anchor: center-center
   9e8420fb-bbfc-4682-ae7a-234c416368f7:
     uuid: 9e8420fb-bbfc-4682-ae7a-234c416368f7
     id: image_crop

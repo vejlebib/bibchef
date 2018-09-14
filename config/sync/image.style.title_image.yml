@@ -2,6 +2,8 @@ uuid: c5bbba95-8909-4709-be5e-c2aa85adfdf9
 langcode: en
 status: true
 dependencies:
+  config:
+    - crop.type.basic_page_title
   module:
     - crop
 name: title_image
@@ -20,3 +22,4 @@ effects:
     data:
       width: 800
       height: 200
+      anchor: center-center

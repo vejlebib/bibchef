@@ -6,7 +6,9 @@ dependencies:
     - core.entity_view_mode.node.rss
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_article_lead
     - field.field.node.article.field_image
+    - field.field.node.article.field_list_image
     - field.field.node.article.field_tags
     - field.field.node.article.webform
     - node.type.article
@@ -22,6 +24,8 @@ content:
   links:
     weight: 100
     region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   body: true
   comment: true

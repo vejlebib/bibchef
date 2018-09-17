@@ -7,4 +7,8 @@ fonts:
   css:
     theme:
       '//fonts.googleapis.com/css?family=Roboto:300': { type: external, minified: true }
-      '//brick.a.ssl.fastly.net/Raleway:400': { type: external, minified: true }
+      # Need to use alternative CDN for this font to get access to lining nums for this font
+      # Google Font optimization removes this data.
+      # See: https://stackoverflow.com/a/38457196
+      # See: https://brick.im/fonts/
+      '//brick.a.ssl.fastly.net/Raleway:400,400i,700': { type: external, minified: true }

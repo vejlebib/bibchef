@@ -96,6 +96,14 @@ label {
   display: block; /* Override inline labels from bootstrap */
 }
 
+strong {
+  font-weight: 700; /* Ensure we use the correct bold font on strong tags */
+}
+
+em {
+  font-style: italic; /* Ensure we use the correct italic font on em tags */
+}
+
 /* Status messages */
 .messages.messages--status {
   margin-bottom: 20px;

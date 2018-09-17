@@ -36,6 +36,7 @@
         "drupal/metatag": "^1.2",
         "drupal/pathauto": "^1.0",
         "drupal/quick_node_clone": "^1.5",
+        "drupal/realname": "^1.0@RC",
         "drupal/recaptcha": "^2.3",
         "drupal/redirect": "^1.0",
         "drupal/registration_role": "^1.0@beta",

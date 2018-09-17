@@ -93,6 +93,9 @@
         ]
     },
     "extra": {
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
         "installer-types": ["library"],
         "installer-paths": {
             "web/core": [

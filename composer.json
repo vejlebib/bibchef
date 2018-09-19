@@ -124,6 +124,9 @@
             },
             "drupal/config_update": {
               "2961886: Unit test for Config Differ is failing": "https://www.drupal.org/files/issues/2018-04-17/2961886.patch"
+            },
+            "drupal/config_installer": {
+              "2998264: Cast t() to string to fix travis based automated testing": "https://www.drupal.org/files/issues/2018-09-13/config-installer-2998264-2.patch"
             }
         }
     },

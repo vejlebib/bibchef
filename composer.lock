@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9dead4b9b4b0d714ac52077de2678673",
+    "content-hash": "89686f8dc49fce13b7c16e6fd20dcd04",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1259,6 +1259,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "2998264: Cast t() to string to fix travis based automated testing": "https://www.drupal.org/files/issues/2018-09-13/config-installer-2998264-2.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

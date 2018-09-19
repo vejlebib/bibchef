@@ -160,6 +160,8 @@ contribute:
   account_type: user
   account_id: null
 langcode: da
-third_party_settings: {  }
+third_party_settings:
+  antibot:
+    antibot: true
 _core:
   default_config_hash: 4mBL6Z1Mwl5V-qY50t451iSQQHfOgoKdJjZTz1O7Agg

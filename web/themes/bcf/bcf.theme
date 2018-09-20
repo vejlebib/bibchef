@@ -4,6 +4,8 @@
  * .theme file for BCF theme.
  */
 
+use Drupal\Component\Utility\HTML;
+
 /**
  * Implements hook_preprocess_page().
  */
@@ -51,11 +53,34 @@ function bcf_preprocess_comment(&$variables) {
   $variables['title'] = $variables['comment']->getSubject();
 }
 
+/**
+ * Implement hook_preprocess_field().
+ */
+function bcf_preprocess_field(&$variables) {
+  // Create some useful classes for all fields.
+  $prefix = 'field-';
+  $entity_type = $variables['entity_type'];
+  $field_name = $variables['field_name'];
+  $field_type = $variables['field_type'];
+
+  $variables['attributes']['class'][] = HTML::getClass($prefix . $entity_type);
+  $variables['attributes']['class'][] = HTML::getClass($prefix . $field_name);
+  $variables['attributes']['class'][] = HTML::getClass($prefix . $field_type);
+  $variables['attributes']['class'][] = HTML::getClass($prefix . $entity_type . '-' . $field_name);
+  $variables['attributes']['class'][] = HTML::getClass($prefix . $entity_type . '-' . $field_type);
+}
+
+/**
+ * Implement hook_preprocess_field__node__field_tags().
+ */
 function bcf_preprocess_field__node__field_tags(&$variables) {
   $variables['attributes']['class'][] = 'field-tags';
   $variables['attributes']['class'][] = 'clearfix';
 }
 
+/**
+ * Implement hook_preprocess_field__node__field_article_lead().
+ */
 function bcf_preprocess_field__node__field_article_lead(&$variables) {
   $variables['attributes']['class'][] = 'field-article-lead';
 }

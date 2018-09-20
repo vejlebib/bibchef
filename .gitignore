@@ -42,3 +42,6 @@
 /web/sites/example.sites.php
 /web/update.php
 /web/web.config
+
+# Ignore private file directory specific to this project.
+/private_files/

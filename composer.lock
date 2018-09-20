@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "89686f8dc49fce13b7c16e6fd20dcd04",
+    "content-hash": "27d136e47ee68d03ce557fb20e8b45bd",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3813,23 +3813,6 @@
             "type": "drupal-library",
             "extra": {
                 "installer-name": "jquery.geocomplete"
-            }
-        },
-        {
-            "name": "jquery/icheck",
-            "version": "1.0.2 ",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/fronteed/icheck/archive/1.0.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "jquery.icheck"
             }
         },
         {

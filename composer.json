@@ -44,7 +44,6 @@
         "drupal/webform": "^5.0@RC",
         "enyo/dropzone": "^5.1",
         "jquery/geocomplete": "1.7.0",
-        "jquery/icheck": "1.0.2 ",
         "jquery/inputmask": "3.3.11",
         "jquery/intl-tel-input": "12.1.12",
         "jquery/rateit": "1.1.1",

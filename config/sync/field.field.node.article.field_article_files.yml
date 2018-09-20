@@ -1,0 +1,27 @@
+uuid: ccd0d223-5762-44b3-a7b2-4a81a3f0a925
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_article_files
+    - node.type.article
+  module:
+    - file
+id: node.article.field_article_files
+field_name: field_article_files
+entity_type: node
+bundle: article
+label: Filer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf'
+  max_filesize: '50 MB'
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

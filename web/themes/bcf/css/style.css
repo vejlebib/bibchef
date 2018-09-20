@@ -436,3 +436,22 @@ div.simple-page-list-grid-col-wrapper.col-sm-6 {
 .profile > div > div:first-of-type:after {
   content: ":";
 }
+
+/**
+ * File field display on nodes.
+ */
+.node .field-file table tr > td:first-of-type {
+  padding-right: 20px;
+}
+
+.node .field-file table th,
+.node .field-file table tr,
+.node .field-file table td {
+  border: 1px solid #ddd;
+}
+
+.node .field-file table th,
+.node .field-file table td {
+  padding: 5px;
+  font-weight: normal;
+}

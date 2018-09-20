@@ -11,7 +11,7 @@ id: node.article.field_article_files
 field_name: field_article_files
 entity_type: node
 bundle: article
-label: Filer
+label: Vedhæftninger
 description: ''
 required: false
 translatable: false

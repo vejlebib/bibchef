@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc8840935e16eb5fbf4b9e93bdf4e659",
+    "content-hash": "c7eda35a2731b222a143cdf6c9e55dfc",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1309,6 +1309,54 @@
             "homepage": "https://www.drupal.org/project/captcha",
             "support": {
                 "source": "http://cgit.drupalcode.org/captcha"
+            }
+        },
+        {
+            "name": "drupal/comment_notify",
+            "version": "1.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/comment_notify",
+                "reference": "8.x-1.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/comment_notify-8.x-1.0-beta2.zip",
+                "reference": "8.x-1.0-beta2",
+                "shasum": "00304637038bfe4dccc0dbb596ded12bbaaef690"
+            },
+            "require": {
+                "drupal/core": "*",
+                "drupal/token": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta2",
+                    "datestamp": "1520438580",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                }
+            ],
+            "description": "Comment follow-up e-mail notification for anonymous as well as registered users.",
+            "homepage": "https://www.drupal.org/project/comment_notify",
+            "support": {
+                "source": "http://cgit.drupalcode.org/comment_notify"
             }
         },
         {
@@ -9330,6 +9378,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "drupal/comment_notify": 10,
         "drupal/realname": 5,
         "drupal/registration_role": 10,
         "drupal/webform": 5

@@ -128,6 +128,9 @@
             },
             "drupal/config_installer": {
               "2998264: Cast t() to string to fix travis based automated testing": "https://www.drupal.org/files/issues/2018-09-13/config-installer-2998264-2.patch"
+            },
+            "drupal/comment_notify": {
+              "2865943: Notice: Trying to get property of non-object in comment_notify_form_user_form_alter()": "https://www.drupal.org/files/issues/2018-10-09/comment_notify-user-settings-defaults-2865943-14.patch"
             }
         }
     },

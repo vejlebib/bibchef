@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c7eda35a2731b222a143cdf6c9e55dfc",
+    "content-hash": "85657a7bc6ff7a0eb27cad6bb1116d0a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1341,6 +1341,9 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "2865943: Notice: Trying to get property of non-object in comment_notify_form_user_form_alter()": "https://www.drupal.org/files/issues/2018-10-09/comment_notify-user-settings-defaults-2865943-14.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

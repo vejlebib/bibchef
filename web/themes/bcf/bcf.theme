@@ -16,8 +16,10 @@ function bcf_preprocess_page(&$variables) {
     $variables['is_node'] = TRUE;
   }
 
-  // On node pages we always show the sidebar and a more narrow content area.
-  if ($variables['is_node'] || (!empty($variables['page']['sidebar_first']) && empty($variables['page']['sidebar_second']))) {
+  // On every page except the frontpage we always show the sidebar and a more
+  // narrow content area.
+  $current_path = \Drupal::service('path.current')->getPath();
+  if (!$variables['is_front'] && $current_path != '/nyheder') {
     $variables['contentlayout'] = 'col-md-8 ';
     $variables['sidebarfirst'] = 'col-md-4';
   }

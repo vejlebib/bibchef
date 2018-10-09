@@ -44,11 +44,11 @@ content:
     third_party_settings: {  }
   field_article_files:
     weight: 4
-    label: above
+    label: hidden
     settings:
       use_description_as_link_text: true
     third_party_settings: {  }
-    type: file_table
+    type: file_default
     region: content
   field_article_lead:
     weight: 0

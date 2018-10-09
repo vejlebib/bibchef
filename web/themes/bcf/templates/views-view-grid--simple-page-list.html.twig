@@ -58,8 +58,8 @@
     {% for row in items %}
       <div{{ row.attributes.addClass(row_classes, options.row_class_default ? 'row-' ~ loop.index) }}>
         {% for column in row.content %}
-          <div class="simple-page-list-grid-col-wrapper col-md-3 col-sm-6">
-            <div{{ column.attributes.addClass(col_classes, options.col_class_default ? 'col-' ~ loop.index) }}>
+          <div class="simple-card-wrapper col-md-3 col-sm-6">
+            <div{{ column.attributes.addClass(col_classes, options.col_class_default ? 'col-' ~ loop.index, 'simple-card') }}>
               {{ column.content }}
             </div>
           </div>
@@ -70,8 +70,8 @@
     {% for column in items %}
       <div{{ column.attributes.addClass(col_classes, options.col_class_default ? 'col-' ~ loop.index) }}>
         {% for row in column.content %}
-          <div class="simple-page-list-grid-col-wrapper col-md-3 col-sm-6">
-            <div{{ row.attributes.addClass(row_classes, options.row_class_default ? 'row-' ~ loop.index) }}>
+          <div class="simple-card-wrapper col-md-3 col-sm-6">
+            <div{{ row.attributes.addClass(row_classes, options.row_class_default ? 'row-' ~ loop.index, 'simple-card') }}>
               {{ row.content }}
             </div>
           </div>

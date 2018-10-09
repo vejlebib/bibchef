@@ -375,9 +375,9 @@ div.views-col {
 }
 
 /**
- * Simple page front-page cadrs.
+ * Simple cards.
  */
-div.simple-page-card {
+div.simple-card {
   background-color: #ffffff;
   padding: 5px;
   padding-bottom: 20px;
@@ -396,21 +396,24 @@ div.simple-page-card {
  * width. Other places it doesn't seem to be a problem (which is really weird),
  * so for now we will only try to fix images on the simple page cards.
  */
-div.simple-page-card img {
+div.simple-card img {
   width: 100%;
 }
 
-div.simple-page-card .views-field-title,
-div.simple-page-card .views-field-field-front-teaser {
+div.simple-card .views-field-title,
+div.simple-card .views-field-field-front-teaser {
   padding: 8px;
 }
 
-div.simple-page-list-grid-col-wrapper.col-md-3,
-div.simple-page-list-grid-col-wrapper.col-sm-6 {
+div.simple-card-wrapper.col-md-3,
+div.simple-card-wrapper.col-sm-6 {
   padding-right: 8px;
   padding-left: 8px;
 }
 
+/**
+ * Simple page list on frontpage.
+ */
 .simple-page-list-view {
   border-top: 1px solid #a4a4a4;
   padding-top: 20px;

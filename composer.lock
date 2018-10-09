@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "85657a7bc6ff7a0eb27cad6bb1116d0a",
+    "content-hash": "3680ac55cb0b757817bff9de0bbbb94a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1343,7 +1343,7 @@
                     }
                 },
                 "patches_applied": {
-                    "2865943: Notice: Trying to get property of non-object in comment_notify_form_user_form_alter()": "https://www.drupal.org/files/issues/2018-10-09/comment_notify-user-settings-defaults-2865943-14.patch"
+                    "2865943: Notice: Trying to get property of non-object in comment_notify_form_user_form_alter()": "https://www.drupal.org/files/issues/2018-10-10/comment_notify-user-settings-defaults-2865943-15.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

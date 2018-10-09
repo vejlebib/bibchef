@@ -1,0 +1,29 @@
+uuid: 9da98d4c-15e3-4fa0-82e0-5140d6595db1
+langcode: da
+status: true
+dependencies:
+  config:
+    - views.view.article_list
+  module:
+    - system
+    - views
+  theme:
+    - bcf
+id: blotlagtformulararticle_listpage_1
+theme: bcf
+region: page_title
+weight: -11
+provider: null
+plugin: 'views_exposed_filter_block:article_list-page_1'
+settings:
+  id: 'views_exposed_filter_block:article_list-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: /nyheder
+    negate: false
+    context_mapping: {  }

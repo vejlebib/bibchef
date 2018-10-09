@@ -10,16 +10,16 @@ use Drupal\Component\Utility\Html;
  * Implements hook_preprocess_page().
  */
 function bcf_preprocess_page(&$variables) {
-  // On every page except the frontpage we always show the sidebar and a more
-  // narrow content area.
-  if (!$variables['is_front']) {
-    $variables['contentlayout'] = 'col-md-8 ';
-    $variables['sidebarfirst'] = 'col-md-4';
-  }
-
+  $variables['is_node'] = FALSE;
   $node = \Drupal::routeMatch()->getParameter('node');
   if ($node instanceof \Drupal\node\NodeInterface) {
     $variables['is_node'] = TRUE;
+  }
+
+  // On node pages we always show the sidebar and a more narrow content area.
+  if ($variables['is_node'] || (!empty($variables['page']['sidebar_first']) && empty($variables['page']['sidebar_second']))) {
+    $variables['contentlayout'] = 'col-md-8 ';
+    $variables['sidebarfirst'] = 'col-md-4';
   }
 
   // Use 3-by-3 layout on tablets also.
@@ -83,4 +83,11 @@ function bcf_preprocess_field__node__field_tags(&$variables) {
  */
 function bcf_preprocess_field__node__field_article_lead(&$variables) {
   $variables['attributes']['class'][] = 'field-article-lead';
+}
+
+/**
+ * Implements hook_preprocess_views_view__article_list__page().
+ */
+function bcf_preprocess_views_view__article_list__page(&$variables) {
+  $variables['attributes']['class'][] = 'views-article-list-page';
 }

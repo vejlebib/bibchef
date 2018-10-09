@@ -400,11 +400,6 @@ div.simple-card img {
   width: 100%;
 }
 
-div.simple-card .views-field-title,
-div.simple-card .views-field-field-front-teaser {
-  padding: 8px;
-}
-
 div.simple-card-wrapper.col-md-3,
 div.simple-card-wrapper.col-sm-6 {
   padding-right: 8px;
@@ -417,6 +412,73 @@ div.simple-card-wrapper.col-sm-6 {
 .simple-page-list-view {
   border-top: 1px solid #a4a4a4;
   padding-top: 20px;
+}
+
+/**
+ * Article list page (view)
+ */
+.views-article-list-page .simple-card {
+  height: 410px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#views-exposed-form-article-list-page-1 .form-item-title,
+#views-exposed-form-article-list-page-1 .form-actions {
+  display: inline-block;
+  margin: 0;
+}
+
+#views-exposed-form-article-list-page-1 .form-item-title input {
+  width: 100%;
+}
+
+/* Article list - views mini pager */
+.views-article-list-page nav {
+  clear: both;
+  padding-top: 16px;
+  font-size: 18px;
+}
+
+.views-article-list-page nav ul {
+  text-align: center;
+}
+
+.views-article-list-page nav li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+@media (max-width: 991px) {
+  #views-exposed-form-article-list-page-1 {
+    text-align: center;
+  }
+
+  #views-exposed-form-article-list-page-1 .form-item-title {
+    width: 91%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Ensure cards don't grow to big on small screens. */
+  .views-article-list-page .simple-card {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #views-exposed-form-article-list-page-1 .form-item-title {
+    width: 70%;
+  }
+}
+
+/**
+ * Internal card padding fixes for both simple page block and article list page.
+ */
+div.simple-card .views-field-title,
+div.simple-card .views-field-field-front-teaser,
+div.simple-card .views-field-field-article-lead {
+  padding: 8px;
 }
 
 /**

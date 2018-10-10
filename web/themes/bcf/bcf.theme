@@ -93,3 +93,23 @@ function bcf_preprocess_field__node__field_article_lead(&$variables) {
 function bcf_preprocess_views_view__article_list__page(&$variables) {
   $variables['attributes']['class'][] = 'views-article-list-page';
 }
+
+/**
+ * Implements hook_preprocess_menu().
+ */
+function bcf_preprocess_menu(&$variables, $hook) {
+  if ($hook == 'menu__main') {
+    // On the main menu; hide the following links for logged in users.
+    $paths = [
+      '/user/login',
+      '/user/register',
+    ];
+
+    $items = $variables['items'];
+    foreach ($items as $key => $item) {
+      if (in_array($item['url']->toString(), $paths) && \Drupal::currentUser()->id()) {
+        unset($variables['items'][$key]);
+      }
+    }
+  }
+}

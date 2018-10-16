@@ -15,6 +15,7 @@ permissions:
   - 'access shortcuts'
   - 'access site-wide contact form'
   - 'access user contact forms'
+  - 'access user profiles'
   - 'edit own comments'
   - 'post comments'
   - 'search content'

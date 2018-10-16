@@ -13,6 +13,7 @@ permissions:
   - 'access content'
   - 'access mailchimp signup pages'
   - 'access site-wide contact form'
+  - 'access user profiles'
   - 'edit own comments'
   - 'post comments'
   - 'search content'

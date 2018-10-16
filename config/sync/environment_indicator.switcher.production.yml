@@ -1,0 +1,10 @@
+uuid: 599a8c3e-d183-4aaa-83f5-36078df30187
+langcode: da
+status: true
+dependencies: {  }
+machine: production
+description: null
+name: Production
+url: 'https://bibchef.dk'
+fg_color: '#d0d0d0'
+bg_color: '#0d0d0d'

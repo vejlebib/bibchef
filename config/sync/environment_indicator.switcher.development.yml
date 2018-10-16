@@ -1,0 +1,10 @@
+uuid: 2dc60bea-934c-4416-aeea-1f0fd608ea6e
+langcode: da
+status: true
+dependencies: {  }
+machine: development
+description: null
+name: Development
+url: 'http://bcf.test'
+fg_color: '#d0d0d0'
+bg_color: '#008000'

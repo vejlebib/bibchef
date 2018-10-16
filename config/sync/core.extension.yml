@@ -25,6 +25,7 @@ module:
   embed: 0
   entity_browser: 0
   entity_embed: 0
+  environment_indicator: 0
   features: 0
   features_ui: 0
   field: 0

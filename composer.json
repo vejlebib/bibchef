@@ -29,6 +29,7 @@
         "drupal/console": "~1.0",
         "drupal/core": "~8.0",
         "drupal/drupal8_zymphonies_theme": "^1.0",
+        "drupal/environment_indicator": "^3.3",
         "drupal/features": "^3.5",
         "drupal/file_browser": "^1.1",
         "drupal/image_widget_crop": "^2.1",

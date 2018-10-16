@@ -1,0 +1,10 @@
+uuid: 8df35c4a-e018-45ec-b578-f4ddecebfa17
+langcode: da
+status: true
+dependencies: {  }
+machine: staging
+description: null
+name: Staging
+url: 'https://staging.bibchef.dk'
+fg_color: '#d0d0d0'
+bg_color: '#400080'

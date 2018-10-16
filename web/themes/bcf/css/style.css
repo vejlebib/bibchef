@@ -484,6 +484,10 @@ div.simple-card .views-field-field-article-lead {
 /**
  * User profile styling.
  */
+.profile {
+  min-height: 250px;
+}
+
 .profile > div {
   display: block;
   padding: 0;

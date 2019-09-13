@@ -28,28 +28,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  comment_notify_settings:
-    weight: 5
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_bibliotek:
-    weight: 7
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_bibliotekets_adresse:
-    weight: 8
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_ean:
     weight: 6
     settings:
       size: 60
@@ -57,8 +36,24 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
+  field_bibliotekets_adresse:
+    weight: 7
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_ean:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_previous_librarychief:
-    weight: 11
+    weight: 10
     settings:
       size: 60
       placeholder: ''
@@ -66,13 +61,13 @@ content:
     type: string_textfield
     region: content
   field_previous_membership:
-    weight: 10
+    weight: 9
     settings: {  }
     third_party_settings: {  }
     type: options_buttons
     region: content
   field_telefon:
-    weight: 9
+    weight: 8
     settings:
       size: 60
       placeholder: ''
@@ -110,6 +105,7 @@ content:
     weight: 6
     region: content
 hidden:
+  comment_notify_settings: true
   contact: true
   field_betalt: true
   langcode: true

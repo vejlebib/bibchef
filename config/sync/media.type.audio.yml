@@ -5,7 +5,7 @@ dependencies: {  }
 _core:
   default_config_hash: RQ75tMARZvKiI0hge9SKZpZFi-dOzZyq0nlouHHBeLM
 id: audio
-label: Audio
+label: Lyd
 description: 'A locally hosted audio file.'
 source: audio_file
 queue_thumbnail_downloads: false

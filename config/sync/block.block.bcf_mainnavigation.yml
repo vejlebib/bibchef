@@ -26,6 +26,7 @@ settings:
   label_display: visible
   level: 2
   depth: 2
+  expand_all_items: false
 visibility:
   request_path:
     id: request_path

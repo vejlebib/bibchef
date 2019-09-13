@@ -1,0 +1,24 @@
+uuid: c36b0a24-2a78-4e19-b001-dda3a61a7c27
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_betalt
+  module:
+    - user
+id: user.user.field_betalt
+field_name: field_betalt
+entity_type: user
+bundle: user
+label: Betalt
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Betalt
+  off_label: 'Ikke betalt'
+field_type: boolean

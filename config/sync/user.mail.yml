@@ -12,7 +12,7 @@ register_no_approval_required:
   subject: 'Kontoinformationer for [user:display-name] på [site:name] (blokeret)'
 register_pending_approval:
   body: "Kære [user:field_user_full_name]\r\n\r\nTak fordi du ønsker medlemskab af Bibliotekschefforeningen. Vi sender dig en elektronisk faktura for medlemskontingentet via EAN. \r\n\r\nNår vi har registreret din betaling, modtager du en e-mail med information om, hvordan du logger ind på hjemmesiden, vælger en adgangskode og andre detaljer.\r\n\r\nHvis du afløser et tidligere medlem i foreningen, bliver du ikke opkrævet kontingent for indeværende år. Du modtager en e-mail, når dit medlemskab er aktivt.\r\n\r\nVenlig hilsen\r\n[site:name]"
-  subject: 'Tilmelding til BCF (afventer godkendelse af administrator)'
+  subject: 'Medlemsinformation for [user:field_user_full_name] på [site:name] (afventer godkendelse af administrator)'
 register_pending_approval_admin:
   body: "[user:display-name] har anmodet om medlemskab af BCF.\r\n\r\n[user:edit-url]\r\n\r\nNår betalingen er registreret, skal du huske at godkende det nye medlem på hjemmesiden.\r\n\r\nDet gør du ved at logge ind på hjemmesiden og vælge fanen Personer. Du kan også klikke på linket herover. \r\n\r\nPå brugerens side skal du finde overskriften Status og skifte fra blokeret til aktiv - og dernæst gemme i bunden af siden."
   subject: 'Medlemsinformation for [user:field_user_full_name] på [site:name] (afventer godkendelse af administrator)'

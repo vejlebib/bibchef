@@ -206,6 +206,8 @@ display:
             user_block_user_action: user_block_user_action
             user_remove_role_action: user_remove_role_action
             user_unblock_user_action: user_unblock_user_action
+            vbo_export_generate_csv_action: vbo_export_generate_csv_action
+            vbo_export_generate_xlsx_action: vbo_export_generate_xlsx_action
             views_bulk_edit: views_bulk_edit
             vbo_cancel_user_action: vbo_cancel_user_action
             views_bulk_operations_delete_entity: views_bulk_operations_delete_entity
@@ -224,6 +226,13 @@ display:
               label_override: ''
             user_unblock_user_action:
               label_override: ''
+            vbo_export_generate_csv_action:
+              label_override: 'Eksporter til CSV'
+              strip_tags: 1
+              separator: ;
+            vbo_export_generate_xlsx_action:
+              label_override: 'Eksporter til Excel'
+              strip_tags: 1
             views_bulk_edit:
               label_override: 'Ændre værdi'
               get_bundles_from_results: 1

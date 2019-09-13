@@ -45,6 +45,8 @@
         "drupal/redirect": "^1.0",
         "drupal/registration_role": "^1.0@beta",
         "drupal/token": "^1.0",
+        "drupal/views_bulk_edit": "~2.3",
+        "drupal/views_bulk_operations": "~3.2",
         "drupal/webform": "^5.0",
         "enyo/dropzone": "^5.1",
         "jquery/geocomplete": "1.7.0",

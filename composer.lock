@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb10643707324514373a0dcc60c68782",
+    "content-hash": "f5ec4b7feab2e48cbcfafc799302847a",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3037,6 +3037,10 @@
                         "status": "not-covered",
                         "message": "RC releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "3052527: Drupal 8.7.0 breaks Mailgun due to EmailValidation::isValid": "https://www.drupal.org/files/issues/2019-05-11/mailgun-broken_email_validation-3052527-7-D8.patch",
+                    "3017767: Incompatibility with European servers (eu)": "https://www.drupal.org/files/issues/2019-03-19/api-region-select-3017767-21_0.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

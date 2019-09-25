@@ -129,13 +129,17 @@
         },
         "patches":  {
             "drupal/config_update": {
-              "2961886: Unit test for Config Differ is failing": "https://www.drupal.org/files/issues/2018-04-17/2961886.patch"
+                "2961886: Unit test for Config Differ is failing": "https://www.drupal.org/files/issues/2018-04-17/2961886.patch"
             },
             "drupal/config_installer": {
-              "2998264: Cast t() to string to fix travis based automated testing": "https://www.drupal.org/files/issues/2018-09-13/config-installer-2998264-2.patch"
+                "2998264: Cast t() to string to fix travis based automated testing": "https://www.drupal.org/files/issues/2018-09-13/config-installer-2998264-2.patch"
             },
             "drupal/comment_notify": {
-              "2865943: Notice: Trying to get property of non-object in comment_notify_form_user_form_alter()": "https://www.drupal.org/files/issues/2018-10-10/comment_notify-user-settings-defaults-2865943-15.patch"
+                "2865943: Notice: Trying to get property of non-object in comment_notify_form_user_form_alter()": "https://www.drupal.org/files/issues/2018-10-10/comment_notify-user-settings-defaults-2865943-15.patch"
+            },
+            "drupal/mailgun": {
+                "3052527: Drupal 8.7.0 breaks Mailgun due to EmailValidation::isValid": "https://www.drupal.org/files/issues/2019-05-11/mailgun-broken_email_validation-3052527-7-D8.patch",
+                "3017767: Incompatibility with European servers (eu)": "https://www.drupal.org/files/issues/2019-03-19/api-region-select-3017767-21_0.patch"
             }
         }
     },

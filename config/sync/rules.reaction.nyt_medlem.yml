@@ -12,3 +12,36 @@ tags: {  }
 config_version: '3'
 expression:
   id: rules_rule
+  uuid: 7a28115d-217d-44a4-8276-2904ef77ccc8
+  conditions:
+    id: rules_and
+    uuid: 8ae026ef-c5ca-4c15-96d0-85277798af29
+    conditions: {  }
+  actions:
+    id: rules_action_set
+    uuid: 11fcb535-cdd1-4f12-98eb-ac2939d8546a
+    actions:
+      -
+        id: rules_action
+        uuid: fd232760-d16f-43c1-bd67-bf24fee4654f
+        context_values:
+          to:
+            - admin@bibchef.dk
+          subject: 'Nyt medlem på bibchef.dk'
+          message: 'Nyt medlem på bibchef.dk'
+          reply: ''
+          language: ''
+        context_mapping: {  }
+        context_processors:
+          to:
+            rules_tokens: {  }
+          subject:
+            rules_tokens: {  }
+          message:
+            rules_tokens: {  }
+          reply:
+            rules_tokens: {  }
+          language:
+            rules_tokens: {  }
+        provides_mapping: {  }
+        action_id: rules_send_email

@@ -1,0 +1,6 @@
+ignored_config_entities:
+  0: 'rules.reaction.nyt_medlem:expression.actions.actions.context_values.to'
+  2: 'system.site:mail_notification'
+_core:
+  default_config_hash: UVH1aJ4b44UM-VdPVN7hNNuuVqfReJxwfVeDQH1Hvsk
+langcode: da

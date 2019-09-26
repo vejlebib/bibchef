@@ -1,0 +1,14 @@
+uuid: eaf7b283-7906-42c6-a87d-396aaecd0b9e
+langcode: da
+status: true
+dependencies: {  }
+id: nyt_medlem
+label: 'Nyt medlem'
+events:
+  -
+    event_name: 'rules_entity_insert:user'
+description: 'Afsend mail når et nyt medlem har registeret sig.'
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule

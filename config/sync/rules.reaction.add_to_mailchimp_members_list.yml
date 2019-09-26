@@ -1,0 +1,40 @@
+uuid: 3b9f3729-f695-4399-9e49-503862befcd7
+langcode: da
+status: true
+dependencies: {  }
+id: add_to_mailchimp_members_list
+label: 'Add to mailchimp members list'
+events:
+  -
+    event_name: 'rules_entity_presave:user'
+description: 'When a new user is saved and has the role "member" ensure that they are subscribes to the Mailchimp members list.'
+tags: {  }
+config_version: '3'
+expression:
+  id: rules_rule
+  uuid: 501e28a9-1cdd-4ce2-91bf-09a3ef34f6ff
+  conditions:
+    id: rules_and
+    uuid: 6c78c149-d8e1-4c6f-8f3c-c1ae32e7689c
+    conditions:
+      -
+        id: rules_condition
+        uuid: fcf19d41-f8b5-4d31-8d35-6072c6bfa8df
+        context_values:
+          roles:
+            - member
+          operation: AND
+        context_mapping:
+          user: user
+        context_processors:
+          roles:
+            rules_tokens: {  }
+          operation:
+            rules_tokens: {  }
+        provides_mapping: {  }
+        condition_id: rules_user_has_role
+        negate: false
+  actions:
+    id: rules_action_set
+    uuid: de6ac17b-ebc8-4b11-a194-7bd4e3e1e233
+    actions: {  }

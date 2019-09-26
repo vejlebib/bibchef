@@ -45,6 +45,7 @@
         "drupal/recaptcha": "^2.3",
         "drupal/redirect": "^1.0",
         "drupal/registration_role": "^1.0@beta",
+        "drupal/rules": "^3.0@alpha",
         "drupal/token": "^1.0",
         "drupal/vbo_export": "^3.0",
         "drupal/views_bulk_edit": "~2.3",

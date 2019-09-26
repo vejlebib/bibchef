@@ -1,0 +1,32 @@
+uuid: d95cb46e-eb8d-4d9a-b400-89709b71e443
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_members_mailchimp
+  module:
+    - mailchimp_lists
+    - user
+id: user.user.field_members_mailchimp
+field_name: field_members_mailchimp
+entity_type: user
+bundle: user
+label: 'Tilmeld nyhedsbrev'
+description: 'Tilmeld brugeren til mailchimp liste for medlemmer'
+required: false
+translatable: false
+default_value:
+  -
+    allow_unsubscribe: true
+    subscribe: false
+    interest_groups: null
+default_value_callback: ''
+settings:
+  subscribe_checkbox_label: Subscribe
+  show_interest_groups: false
+  hide_subscribe_checkbox: false
+  interest_groups_hidden: false
+  interest_groups_label: ''
+  merge_fields: {  }
+  unsubscribe_on_delete: false
+field_type: mailchimp_lists_subscription

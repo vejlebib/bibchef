@@ -7,12 +7,14 @@ dependencies:
     - field.field.user.user.field_bibliotek
     - field.field.user.user.field_bibliotekets_adresse
     - field.field.user.user.field_ean
+    - field.field.user.user.field_members_mailchimp
     - field.field.user.user.field_previous_librarychief
     - field.field.user.user.field_previous_membership
     - field.field.user.user.field_telefon
     - field.field.user.user.field_titel
     - field.field.user.user.field_user_full_name
   module:
+    - mailchimp_lists
     - path
     - user
 _core:
@@ -62,6 +64,12 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
+  field_members_mailchimp:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: mailchimp_lists_select
     region: content
   field_previous_librarychief:
     weight: 11

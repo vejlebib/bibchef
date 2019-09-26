@@ -26,7 +26,12 @@ settings:
   show_interest_groups: false
   hide_subscribe_checkbox: false
   interest_groups_hidden: false
-  interest_groups_label: ''
-  merge_fields: {  }
-  unsubscribe_on_delete: false
+  interest_groups_label: 'Interest Groups'
+  merge_fields:
+    EMAIL: mail
+    ADDRESS: ''
+    FNAME: ''
+    LNAME: ''
+    PHONE: ''
+  unsubscribe_on_delete: true
 field_type: mailchimp_lists_subscription
